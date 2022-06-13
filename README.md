@@ -3,6 +3,8 @@ This project  created as an assignment for BIL4214-Cloud Computing Lesson in Siv
 ### Purpose
 -It is a test application with nginx installed on ubuntu in its dockerfile file.
 When this application runs, you will see my CV information that I have prepared on my html page on 127.0.0.1 ip.
+-The main purpose here is to create and run containers from the images I have uploaded to Docker Hub.
+The images that I have already uploaded to docker hub are available in the dockerfile
 ## Usage 
 
 
