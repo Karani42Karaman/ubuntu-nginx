@@ -46,7 +46,7 @@ EXPOSE 80/tcp
 COPY --from=builder /usr/sbin/nginx /usr/sbin/
 # Configurations
 COPY --from=builder /etc/nginx/ /etc/nginx/
-COPY --from=builder /var/www/html/ /var/www/html/
+COPY --from=builder /var/www/html /var/www/html
 
 #application
 RUN mkdir -p  /var/www/html/html/img/
